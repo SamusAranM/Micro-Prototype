@@ -11,9 +11,10 @@ public class PlayerCollision : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Time.timeScale = 1f;
-        gameIsPaused = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 1f;
+            gameIsPaused = false;
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
