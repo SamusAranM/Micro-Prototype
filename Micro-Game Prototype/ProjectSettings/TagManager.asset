@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Obstacle
   - Ground
-  - Cactus
-  - Bird
   layers:
   - Default
   - TransparentFX

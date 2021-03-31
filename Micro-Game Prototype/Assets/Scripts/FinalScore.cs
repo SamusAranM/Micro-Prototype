@@ -8,6 +8,12 @@ public class FinalScore : MonoBehaviour
     public Text Score;
     public Text finalText;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+                
+    }
+
     // Update is called once per frame
     void Update()
     {
