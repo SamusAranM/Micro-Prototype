@@ -19,7 +19,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Obstacle")
+        if(collision.collider.tag == "Cactus" || collision.collider.tag == "Bird")
         {
             movement.enabled = false;
             gameOverUI.SetActive(true);
